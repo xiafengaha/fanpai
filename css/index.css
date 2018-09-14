@@ -14,7 +14,13 @@ html,body{height: 100%;width: 100%;margin:0;padding: 0;}
 
 #projects .grid {}
 #projects {
-    background-color: #ef4036;
+    position: fixed;
+    width:100%;
+    background-size:cover;
+    background: url("../img/1.jpg") no-repeat center;
+    background-attachment:fixed;
+    background-position: center center;
+    background-size: cover;
     overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -130,15 +136,15 @@ div.projects .controls:hover .bottom {
 
 
 .project.ani4 {
-    right: 948px;
+    right: 840px;
     bottom: 0;
 }
 .project.ani5 {
-    right: 711px;
+    right: 603px;
     bottom: 0;
 }
 .project.ani6 {
-    right: 474px;
+    right: 368px;
     bottom: 0;
 }
 .project.ani7 {
@@ -146,15 +152,15 @@ div.projects .controls:hover .bottom {
     bottom: 0;
 }
 
-.project span{display: inline-block;border-radius: 50%;width: 160px;height: 160px;margin-top: 75px;}
-.project.ani0 span{background: #ef4036;}
-.project.ani1 span{background: #ff6c00;}
-.project.ani2 span{background: #ffde00;}
-.project.ani3 span{background: #0ce501;}
-.project.ani4 span{background: #05e7df;}
-.project.ani5 span{background: #007df1;}
-.project.ani6 span{background: #8e00f1;}
-.project.ani7 span{background: #000000;}
+.project span{display: inline-block;border-radius: 50%;width: 160px;height: 160px;margin-top: 55px;line-height: 160px;font-size: 160px;}
+.project.ani0 span{color: #ef4036;}
+.project.ani1 span{color: #ff6c00;}
+.project.ani2 span{color: #ffde00;}
+.project.ani3 span{color: #0ce501;}
+.project.ani4 span{color: #05e7df;}
+.project.ani5 span{color: #007df1;}
+.project.ani6 span{color: #8e00f1;}
+.project.ani7 span{color: #000000;}
 
 .aniwz {
     width: 222px;
